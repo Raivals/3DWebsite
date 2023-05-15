@@ -11,10 +11,12 @@ import { experiences } from "../constants"
 import { SectionWrapper } from "../hoc"
 import { textVariant } from "../utils/motion"
 
+/* style and reception of exp information */
+
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
-    contentStyle={{ background: "#1d1836", color: "#fff" }}
-    contentArrowStyle={{ borderRight: "7px solid #232631" }}
+    contentStyle={{ background: "#E2B3F9", color: "black" }}
+    contentArrowStyle={{ borderRight: "7px solid #E2B3F9" }}
     date={experience.date}
     iconStyle={{ background: experience.iconBg }}
     icon={
@@ -27,12 +29,10 @@ const ExperienceCard = ({ experience }) => (
       </div>
     }
   >
+    {/* catch experiences and return exp details */}
     <div>
-      <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
-      <p
-        className="text-secondary text-[16px] font-semibold"
-        style={{ margin: 0 }}
-      >
+      <h3 className="text-black text-[24px] font-bold">{experience.title}</h3>
+      <p className="text-black text-[16px] font-semibold" style={{ margin: 0 }}>
         {experience.company_name}
       </p>
     </div>
@@ -41,7 +41,7 @@ const ExperienceCard = ({ experience }) => (
       {experience.points.map((point, index) => (
         <li
           key={`experience-point-${index}`}
-          className="text-white-100 text-[14px] pl-1 tracking-wider "
+          className="text-black-100 text-[14px] pl-1 tracking-wider "
         >
           {point}
         </li>
