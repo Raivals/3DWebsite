@@ -122,7 +122,7 @@ const experiences = [
     title: "UX/UI Designer en alternance",
     company_name: "Gibraltaz, Toul",
     icon: gibraltaz,
-    iconBg: "#E6DEDD",
+    iconBg: "#FFF",
     date: "Depuis octobre 2021",
     points: [
       "Récolte du besoin client et utilisateur puis benchmark UX.",
@@ -136,7 +136,7 @@ const experiences = [
     company_name:
       "Institut des sciences du Digital, Management et Cognition, Nancy",
     icon: idmc,
-    iconBg: "#E6DEDD",
+    iconBg: "#FFF",
     date: "De septembre 2021 à septembre 2023 ",
     points: [
       "IHM et Ergonomie des interfaces.",
@@ -149,7 +149,7 @@ const experiences = [
     title: "Licence MIASHS",
     company_name: "Université Lumière Lyon 2",
     icon: lyon,
-    iconBg: "#E6DEDD",
+    iconBg: "#FFF",
     date: "Jan 2022 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -162,7 +162,7 @@ const experiences = [
 
 const projects = [
   {
-    name: "Commet Group",
+    name: "Site - Commet Group",
     description: "Refonte du site Commet Group",
     tags: [
       {
@@ -182,7 +182,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Institut de Cancérologie",
+    name: "Site - Institut de Cancérologie de Lorraine",
     description: "Refonte du site de l'ICL",
     tags: [
       {
@@ -202,7 +202,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Plateforme Vandoeuvre-lès-Nancy",
+    name: "Plateforme d'engagement - Vandoeuvre",
     description: "Benchmark et design ",
     tags: [
       {
@@ -222,7 +222,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Configurateur de protection Indurrielle",
+    name: "Configurateur - Groupe FPS",
     description: "lorem ipsum dolor sit amet, consectetur",
     tags: [
       {
@@ -242,7 +242,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Refonte du site Granulest",
+    name: " Site - Granulest",
     description: "lorem ipsum dolor sit amet, consectetur",
     tags: [
       {
@@ -262,7 +262,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Refonte du site executive",
+    name: "Site - executive",
     description: "lorem ipsum dolor sit amet, consectetur",
     tags: [
       {
@@ -282,7 +282,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Conciergerie ville de Melun",
+    name: "Conciergerie - Melun",
     description: "lorem ipsum dolor sit amet, consectetur",
     tags: [
       {
