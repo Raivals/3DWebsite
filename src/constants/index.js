@@ -15,10 +15,9 @@ import {
   git,
   figma,
   docker,
-  meta,
   gibraltaz,
-  tesla,
-  shopify,
+  idmc,
+  lyon,
   commet,
   icl,
   vandoeuvre,
@@ -120,36 +119,37 @@ const technologies = [
 
 const experiences = [
   {
-    title: "UX Designer",
-    company_name: "Gibraltaz",
+    title: "UX/UI Designer en alternance",
+    company_name: "Gibraltaz, Toul",
     icon: gibraltaz,
-    iconBg: "#D3D3D3",
-    date: "Ocotbre 2021 - Aujourd'hui",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Depuis octobre 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Récolte du besoin client et utilisateur puis benchmark UX.",
+      "Design d’interfaces web ergonomiques avec Figma.",
+      "Implémentation de sites sous WordPress.",
+      "Planification de projets centrés utilisateur.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
+    title: "Master Sciences Cognitives",
+    company_name:
+      "Institut des sciences du Digital, Management et Cognition, Nancy",
+    icon: idmc,
+    iconBg: "#E6DEDD",
+    date: "De septembre 2021 à septembre 2023 ",
+    points: [
+      "IHM et Ergonomie des interfaces.",
+      "Méthodes et outils d'analyse du comportement humain.",
+      "Game design, jeux sérieux et e-learning.",
+      "Gestion de projet agile.",
+    ],
+  },
+  {
+    title: "Licence MIASHS",
+    company_name: "Université Lumière Lyon 2",
+    icon: lyon,
+    iconBg: "#E6DEDD",
     date: "Jan 2022 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -157,46 +157,6 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-]
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ]
 
@@ -343,4 +303,4 @@ const projects = [
   },
 ]
 
-export { services, technologies, experiences, testimonials, projects }
+export { services, technologies, experiences, projects }

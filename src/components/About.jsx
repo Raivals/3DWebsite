@@ -23,7 +23,7 @@ const ServiceCard = ({ index, title, icon }) => (
         <img
           src={icon}
           alt="web-development"
-          className="w-16 h-16 object-contain"
+          className="object-contain w-16 h-16"
         />
 
         <h3 className="text-white text-[20px] font-bold text-center">
@@ -39,21 +39,24 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Aperçu.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-black text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients too
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life !
+        Bientôt diplômée d’un Master Sciences Cognitives réalisé en alternance
+        dans une jeune entreprise de service numérique, je recherche maintenant
+        … où mettre à profit mon expérience en création d’interface utilisateur
+        et en recherche utilisateur. Rigueur et créativité me permette de
+        maquetter sur Figma les solutions sollicités par les utilisateurs lors
+        d’entretiens, tests ou questionnaire. Une certaine expérience des
+        langages web me permet de travailler main dans la main avec les équipes
+        de développement pour aboutir à la meilleure solution !
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="flex flex-wrap gap-10 mt-20">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

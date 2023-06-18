@@ -21,10 +21,9 @@ import tailwind from "./tech/tailwind.png"
 import typescript from "./tech/typescript.png"
 import threejs from "./tech/threejs.svg"
 
-import meta from "./company/meta.png"
-import shopify from "./company/shopify.png"
+import lyon from "./company/lyon2.png"
 import gibraltaz from "./company/gibraltaz.png"
-import tesla from "./company/tesla.png"
+import idmc from "./company/idmc.jpg"
 
 import commet from "./commet-group-accueil.png"
 import icl from "./mockup-icl.png"
@@ -56,10 +55,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
+  lyon,
   gibraltaz,
-  tesla,
+  idmc,
   commet,
   icl,
   vandoeuvre,
