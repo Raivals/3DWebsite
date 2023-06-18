@@ -16,13 +16,17 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
+  gibraltaz,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  commet,
+  icl,
+  vandoeuvre,
+  config,
   threejs,
+  granulest,
+  executive,
+  concierge,
 } from "../assets"
 
 export const navLinks = [
@@ -42,7 +46,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "UX Designer",
     icon: web,
   },
   {
@@ -116,11 +120,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "UX Designer",
+    company_name: "Gibraltaz",
+    icon: gibraltaz,
+    iconBg: "#D3D3D3",
+    date: "Ocotbre 2021 - Aujourd'hui",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,66 +202,143 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Commet Group",
+    description: "Refonte du site Commet Group",
     tags: [
       {
-        name: "react",
+        name: "UX",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "UI",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Figma",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: commet,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Institut de Cancérologie",
+    description: "Refonte du site de l'ICL",
     tags: [
       {
-        name: "react",
+        name: "UX",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "UI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Wordpress",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: icl,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Plateforme Vandoeuvre-lès-Nancy",
+    description: "Benchmark et design ",
     tags: [
       {
-        name: "nextjs",
+        name: "UX",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "UI",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Benchmark",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: vandoeuvre,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Configurateur de protection Indurrielle",
+    description: "lorem ipsum dolor sit amet, consectetur",
+    tags: [
+      {
+        name: "UX",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "UI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: config,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Refonte du site Granulest",
+    description: "lorem ipsum dolor sit amet, consectetur",
+    tags: [
+      {
+        name: "UX",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "UI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Wordpress",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: granulest,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Refonte du site executive",
+    description: "lorem ipsum dolor sit amet, consectetur",
+    tags: [
+      {
+        name: "UX",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "UI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Benchmark",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: executive,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Conciergerie ville de Melun",
+    description: "lorem ipsum dolor sit amet, consectetur",
+    tags: [
+      {
+        name: "UX",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "UI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Analyse",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: concierge,
     source_code_link: "https://github.com/",
   },
 ]
