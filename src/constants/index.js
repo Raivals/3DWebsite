@@ -3,18 +3,15 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
+  miro,
+  figma,
+  gimp,
+  corel,
+  wordpressLog,
+  unity,
+  elementor,
   html,
   css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
   gibraltaz,
   idmc,
   lyon,
@@ -22,7 +19,6 @@ import {
   icl,
   vandoeuvre,
   config,
-  threejs,
   granulest,
   executive,
   concierge,
@@ -72,48 +68,32 @@ const technologies = [
     icon: css,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Miro",
+    icon: miro,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Gimp",
+    icon: gimp,
+  },
+  {
+    name: "Corel-painter",
+    icon: corel,
+  },
+  {
+    name: "Wordpress",
+    icon: wordpressLog,
+  },
+  {
+    name: "Elementor",
+    icon: elementor,
+  },
+  {
+    name: "Unity",
+    icon: unity,
   },
 ]
 
