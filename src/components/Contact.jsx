@@ -1,11 +1,11 @@
 import React, { useRef, useState } from "react"
 import { motion } from "framer-motion"
-import emailjs from "@emailjs/browser"
 
 import { styles } from "../styles"
 import { EarthCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc"
 import { slideIn } from "../utils/motion"
+import linkedin from "../../src/assets/linkedin.png"
 
 const Contact = () => {
   const formRef = useRef()
@@ -25,52 +25,23 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Des questions ? </p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
-        <form
-          ref={formRef}
-          onSubmit={handleSubmit}
-          className="flex flex-col gap-8 mt-12"
-        >
-          <label className="flex flex-col">
-            <span className="mb-4 font-medium text-black">Votre Nom</span>
-            <input
-              type="text"
-              name="name"
-              value={form.name}
-              onChange={handleChange}
-              placeholder="Comment vous appelez vous ?"
-              className="px-6 py-4 font-medium text-white bg-blue-100 border-none rounded-lg placeholder:text-white outlined-none"
+        <div className="flex flex-col gap-8 mt-5">
+          <div className="w-[400px] flex gap-12 ">
+            <img
+              src={linkedin}
+              alt="linkedin-logo"
+              className="w-[60px] h-[60px]"
             />
-          </label>
-          <label className="flex flex-col">
-            <span className="mb-4 font-medium text-black">Votre Email</span>
-            <input
-              type="email"
-              name="email"
-              value={form.email}
-              onChange={handleChange}
-              placeholder="Quel est votre email ?"
-              className="px-6 py-4 font-medium text-white bg-blue-100 border-none rounded-lg placeholder:text-white outlined-none"
-            />
-          </label>
-          <label className="flex flex-col">
-            <span className="mb-4 font-medium text-black">Votre message</span>
-            <textarea
-              rows="7"
-              name="message"
-              value={form.message}
-              onChange={handleChange}
-              placeholder="Que voulez vous me dire ? "
-              className="px-6 py-4 font-medium text-white bg-blue-100 border-none rounded-lg placeholder:text-white outlined-none"
-            />
-          </label>
-
-          <button
-            type="submit"
-            className="px-8 py-3 font-bold text-white bg-blue-100 shadow-md outline-none w-fit shadow-primary rounded-xl"
-          >
-            {loading ? "Envoi en cours..." : "Envoyer"}
-          </button>
-        </form>
+            <a
+              href="https://www.linkedin.com/in/l%C3%A9a-vernay-6067601bb/"
+              target="_blank"
+              alt="linkedin link"
+              className="py-3 text-2xl text-black hover:text-blue-100"
+            >
+              Léa Vernay
+            </a>
+          </div>
+        </div>
       </motion.div>
 
       <motion.div
