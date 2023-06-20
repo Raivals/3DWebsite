@@ -2,7 +2,7 @@ import { styles } from "../styles"
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-[700px] mx-auto">
+    <section className="relative w-full h-[600px] mx-auto">
       <div
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl flex flex-row items-start gap-5`}
       >
