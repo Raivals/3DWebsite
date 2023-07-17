@@ -78,11 +78,13 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-black text-[17px] max-w-3xl leading-[30px]"
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          Les réalisations ci-dessous reflètent la diversité des projets sur
+          lesquels j’ai participé. Toutes les méthodes et compétences que j’ai
+          mises en oeuvre dans ces projets sont détaillées, et quand cela est
+          possible, un lien vers le service fini vous permet de l’explorer plus
+          en détails. Les enjeux des projets tout comme les technologies et
+          méthodes employées varient, pour plus d’informations sur les choix
+          faits, contactez-moi !
         </motion.p>
       </div>
 

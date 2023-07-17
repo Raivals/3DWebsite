@@ -8,14 +8,6 @@ import { slideIn } from "../utils/motion"
 import linkedin from "../../src/assets/linkedin.png"
 
 const Contact = () => {
-  const formRef = useRef()
-  const [form, setForm] = useState({ name: "", email: "", message: "" })
-  const [loading, setLoading] = useState(false)
-
-  const handleChange = (e) => {}
-
-  const handleSubmit = (e) => {}
-
   return (
     <div className="flex flex-col-reverse gap-10 overflow-hidden xl:mt-12 xl:flex-row">
       <motion.div

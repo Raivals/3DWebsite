@@ -9,6 +9,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components"
+import Ref from "./components/Ref"
 
 /* Structrure of the app */
 
@@ -21,9 +22,10 @@ const App = () => {
           <Hero />
         </div>
         <About />
+        <Works />
         <Experience />
         <Tech />
-        <Works />
+        <Ref />
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
