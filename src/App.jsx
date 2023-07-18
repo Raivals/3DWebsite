@@ -8,7 +8,6 @@ import {
   Tech,
   Works,
 } from "./components"
-import Ref from "./components/Ref"
 
 /* Structrure of the app */
 
@@ -24,8 +23,7 @@ const App = () => {
         <Works />
         <Experience />
         <Tech />
-        <div className="relative z-0 flex px-6 flex-col">
-          <Ref />
+        <div className="relative z-0 flex px-6 ">
           <Contact />
         </div>
       </div>
