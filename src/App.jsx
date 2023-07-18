@@ -7,7 +7,6 @@ import {
   Navbar,
   Tech,
   Works,
-  StarsCanvas,
 } from "./components"
 import Ref from "./components/Ref"
 
@@ -25,10 +24,9 @@ const App = () => {
         <Works />
         <Experience />
         <Tech />
-        <Ref />
-        <div className="relative z-0">
+        <div className="relative z-0 flex px-6 flex-col">
+          <Ref />
           <Contact />
-          <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>
