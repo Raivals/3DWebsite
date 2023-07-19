@@ -130,12 +130,9 @@ const experiences = [
     company_name: "Université Lumière Lyon 2",
     icon: lyon,
     iconBg: "#FFF",
-    date: "Jan 2022 - Jan 2023",
+    date: "Sept 2018 - Juin 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales - Sciences Cognitives, mention Bien",
     ],
   },
 ]
@@ -203,7 +200,7 @@ const projects = [
   },
   {
     name: "Configurateur - Groupe FPS",
-    description: "lorem ipsum dolor sit amet, consectetur",
+    description: "Analyse concurentielle ",
     tags: [
       {
         name: "UX",
@@ -223,7 +220,7 @@ const projects = [
   },
   {
     name: " Site - Granulest",
-    description: "lorem ipsum dolor sit amet, consectetur",
+    description: "Implémentation sur Wordpress",
     tags: [
       {
         name: "UX",
@@ -243,7 +240,7 @@ const projects = [
   },
   {
     name: "Site - executive",
-    description: "lorem ipsum dolor sit amet, consectetur",
+    description: "Benchmark, maquettage et implémentation",
     tags: [
       {
         name: "UX",
@@ -263,7 +260,7 @@ const projects = [
   },
   {
     name: "Conciergerie - Melun",
-    description: "lorem ipsum dolor sit amet, consectetur",
+    description: "Amélioration de l'interface",
     tags: [
       {
         name: "UX",
